@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Layout Task</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+    }
+
+    .heading {
+      color: #0b57d0;
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+
+    /* Outer Container (div 4) */
+    .container {
+      background-color: #f7b6d2; /* Pink */
+      width: 700px;
+      margin: 0 auto;
+      padding: 20px 40px 50px 40px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 22px;
+      box-sizing: border-box;
+    }
+
+    /* Inner shared box styles */
+    .box {
+      width: 320px;
+      height: 90px;
+      margin: 30px auto 0 auto;
+      color: #000000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    /* Individual box colors */
+    .box-1 {
+      background-color: #ff0d0d; /* Red */
+    }
+
+    .box-2 {
+      background-color: #007026; /* Dark Green */
+    }
+
+    .box-3 {
+      background-color: #0056c6; /* Blue */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="heading">Task</div>
+
+  <!-- div 4 (Parent Container) -->
+  <div class="container">
+    div 4
+    
+    <!-- Child Boxes -->
+    <div class="box box-1">div 1</div>
+    <div class="box box-2">div 2</div>
+    <div class="box box-3">div 3</div>
+  </div>
+
+</body>
+</html>

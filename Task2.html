@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Traffic Light Layout</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+    }
+
+    /* Wrapper to align the traffic light box and the text side by side */
+    .wrapper {
+      display: flex;
+      align-items: center;
+      gap: 50px;
+    }
+
+    /* Outer Container (Black Border Box) */
+    .traffic-box {
+      width: 180px;
+      padding: 20px 0;
+      border: 3px solid #000000;
+      background-color: #ffffff;
+      box-sizing: border-box;
+    }
+
+    /* Common Circle Styles */
+    .circle {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      margin: 15px auto; /* Centers the circle and adds vertical spacing */
+    }
+
+    /* Circle Colors */
+    .red {
+      background-color: #f5222d;
+    }
+
+    .yellow {
+      background-color: #fa8c16;
+    }
+
+    .green {
+      background-color: #007a33;
+    }
+
+    /* Side Text */
+    .text-content {
+      color: #ff0000;
+      font-size: 26px;
+      font-weight: bold;
+      line-height: 1.3;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="wrapper">
+    <!-- Traffic Light Container -->
+    <div class="traffic-box">
+      <div class="circle red"></div>
+      <div class="circle yellow"></div>
+      <div class="circle green"></div>
+    </div>
+
+   
+
+</body>
+</html>
